@@ -32,6 +32,9 @@ img {
 	max-width:100%;
 	height:auto
 }
+#logoResize {
+  height: 45px;
+}
 .fix {overflow:hidden}
 p {
 	margin:0px;
