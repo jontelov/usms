@@ -38,7 +38,7 @@ img {
 .fix {overflow:hidden}
 p {
 	margin:0px;
-	color: #fff;
+	color: #000000;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #fb9902;
@@ -82,7 +82,7 @@ ul{
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.bg-1{background:#0d0f11;}
+.bg-1{background:#ffffff;}
 .bg-2{background:#131619;}
 
 .ptb-130{padding: 130px 0px}
