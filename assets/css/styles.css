@@ -1933,6 +1933,10 @@ a.appoinment-btn:hover{
 /*-------------------------shop-area end-------------------------*/
 
 /*-------- checkout-area start ----------*/
+.katikati{
+  text-align: center;
+  font-weight: bold;
+}
 .checkout-title{
   padding:20px 30px;
   background:#fb9902;
