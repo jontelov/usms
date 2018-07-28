@@ -1937,6 +1937,7 @@ a.appoinment-btn:hover{
 .katikati{
   text-align: center;
   font-weight: bold;
+  background-color: #131619;
 }
 .checkout-title{
   padding:20px 30px;
@@ -1964,7 +1965,7 @@ a.appoinment-btn:hover{
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #cdd5d9;
   border-radius: 5px;
-  color: #6a6a6a;
+  color: #ffffff;
   font-weight: 400;
   height: 50px;
   margin-bottom: 25px;
