@@ -325,6 +325,7 @@ ul{
     top: 22px;
     width: 720px;
     right: 0px;
+    left: 125px;
     z-index: 9999999;
     position: relative;
 }
@@ -452,6 +453,11 @@ ul{
 }
 /*---------slider-area end---------*/
 /*---------about-area start---------*/
+.kati{
+  text-align: center; 
+  font-weight: bolder;
+  
+}
 .section-title{
   margin-bottom: 45px;
 }
