@@ -285,12 +285,11 @@ ul{
     padding: 10px 0;
     text-decoration: none;
     text-shadow: none;
-    vertical-align: middle;
     height: 35px;
     width: 35px;
 }
 .slicknav_menu .slicknav_icon {
-  margin: 2px 12px;
+  margin: 2px 116px;
 }
 .responsive-menu-wrap .slicknav_menu .slicknav_menutxt {
   display: none;
