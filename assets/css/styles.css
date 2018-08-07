@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 input:focus,select:focus{
 	outline:none;
 }
+input{
+  color: #000000;
+}
 input, button{
     transition:all .3s;
     -webkit-transition:all .3s;
@@ -85,11 +88,7 @@ ul{
 .bg-1{background:#ffffff;}
 .bg-2{background:#131619;}
 
-.ptb-130{padding: 130px 0px}
-.ptb-100{padding: 100px 0px}
-.pt-130{padding-top: 130px}
-.pt-100{padding-top: 100px}
-.pb-130{padding-bottom: 130px}
+.ptb-80{padding: 80px 0px}
 
 .mb-30{margin-bottom: 30px;}
 
@@ -451,7 +450,30 @@ ul{
   height: 17px;
 }
 /*---------slider-area end---------*/
-/*---------about-area start---------*/
+/*---------how-usms-works-area start---------*/
+.how-usms-area .how-usms-wrap{
+  padding: 0px;
+}
+.how-usms-wrap p{
+  margin-bottom: 20px;
+}
+.how-usms-wrap a{
+  display: inline-block;
+  padding:10px 30px;
+  background: #006dcc;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.how-usms-wrap a:hover{
+  background: #fb9902;
+  color: #fff;
+}
+.how-usms-wrap > a {
+  padding: 12px 20px;
+}
 .how-center{
   text-align: center;
   font-family: "proxima-nova",sans-serif;
@@ -464,72 +486,32 @@ ul{
   font-weight: bolder;
   
 }
-.section-title{
-  margin-bottom: 45px;
-}
-.section-title h2{
-  font-size: 34px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.section-title p{
-  font-style: italic;
-  font-size: 2rem;
-}
-.about-wrap {
-  padding: 75px 0px;
-}
-.about-wrap h3{
-  font-size: 23px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-.about-wrap p{
-  margin-bottom: 20px;
-}
-.about-wrap a{
-  display: inline-block;
-  padding:10px 30px;
-  background: #006dcc;
-  color: #222;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-top: 10px;
-  border-radius: 3px;
-}
-.about-wrap a:hover{
-  background: #fb9902;
-  color: #fff;
-}
-.about-img img{
-  visibility: hidden;
-}
-/*---------about-area end---------*/
+/*---------how-usms-works-area end---------*/
 
-/*---------wedo-area start---------*/
-.wedo-wrap {
+/*---------why-usms-area start---------*/
+.why-usms-wrap {
   overflow: hidden;
   background: #0d0f11;
 }
-.wedo-icon {
+.why-usms-icon {
   background: #191b1e;
   float: left;
   margin-right: 10px;
   padding: 30px;
 }
-.wedo-icon span {
+.why-usms-icon span {
   display: block;
   padding-top: 15px;
 }
-.wedo-icon span:before{
+.why-usms-icon span:before{
   font-size: 50px;
   color: #fb9902;
 }
-.wedo-info {
+.why-usms-info {
     overflow: hidden;
     padding: 17px 0px;
 }
-.wedo-info h3{
+.why-usms-info h3{
   font-size: 18px;
   font-weight: 600;
   color: #fff;
@@ -537,7 +519,26 @@ ul{
 .wedo-img {
     padding: 33px 0;
 }
-/*---------wedo-area end---------*/
+.why-usms{
+  padding: 130px 0px 100px;
+}
+.why-usms .why-usms-wrap{
+    text-align: center;
+    padding: 40px 40px 30px;
+    margin-bottom: 30px;
+}
+.why-usms .why-usms-icon {
+    background: #191b1e;
+    float: none;
+    margin-right: 0;
+    height: 110px;
+    padding: 30px;
+    width: 110px;
+    margin:0px  auto 10px;
+    border-radius: 50%;
+}
+
+/*---------why-usms-area end---------*/
 
 /*---------project-area start---------*/
 .project-area{
@@ -1050,27 +1051,7 @@ a#scrollUp i:before{
       home page two style here
 =======================================
 */
-.about-area2 .about-wrap{
-  padding: 0px;
-}
-.wedo-area2{
-  padding: 130px 0px 100px;
-}
-.wedo-area2 .wedo-wrap {
-    text-align: center;
-    padding: 40px 40px 30px;
-    margin-bottom: 30px;
-}
-.wedo-area2 .wedo-icon {
-    background: #191b1e;
-    float: none;
-    margin-right: 0;
-    height: 110px;
-    padding: 30px;
-    width: 110px;
-    margin:0px  auto 10px;
-    border-radius: 50%;
-}
+
 
 /*-----------fanfact-area start-----------*/
 .fanfact-area{
@@ -1152,98 +1133,11 @@ a#scrollUp i:before{
 }
 /*--------------------tetsmonial-area end--------------------*/
 
+
 /*===========================================
       home page three style here
 ===========================================
 */
-.about-area3 .about-wrap{
-  padding: 0px;
-}
-.faq-wrap {
-    margin-top: 30px;
-}
-.faq-wrap .panel-default > .panel-heading {
-  background-color: transparent;
-  border-color: #e1e1e1;
-  padding:0px;
-  font-weight: 700;
-}
-.about-wrap .faq-wrap .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
-  padding: 12px 20px;
-}
-.faq-wrap  .panel-body p {
-  margin-bottom:0px;
-  color: #fff;
-}
-.faq-wrap .panel-body {
-    padding: 20px 20px;
-	background: #131619;
-}
-.faq-wrap .panel-default a {
-  display: block;
-  position: relative;
-  background:#fb9902;
-  color:#fff;
-  overflow:hidden;
-  font-size:14px;
-  margin-top: 0px;
-}
-.faq-wrap .panel-default a:before{
-    position: absolute;
-    right: -15px;
-    top: 0;
-    width: 57px;
-    height: 100%;
-    background: #fb9902;
-    content: "";
-    transform: skew(-20deg);
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-}
-.faq-wrap .panel-default a.collapsed{
-  background: #131619;
-}
-.faq-wrap .panel-default a:after {
-  content: "";
-  font-family: fontawesome;
-  font-size: 16px;
-  position: absolute;
-  right: 0;
-  background: #fb9902;
-  height: 100%;
-  top: 0;
-  width: 35px;
-  color: #fff;
-  text-align: center;
-  line-height: 38px;
-  border:1px solid #fb9902;
-}
-.faq-wrap .panel {
-    margin-bottom: 10px;
-    background-color: #fff;
-    border:none;
-    border-radius: 4px;
-    box-shadow:none;
-    -moz-box-shadow:none;
-    color: #222;
-}
-.faq-wrap .panel-default a.collapsed:after{
-  content:"\f107";
-}
-
-.wedo-area3 .wedo-wrap{
-  padding: 0px;
-  background: transparent;
-}
-.wedo-area3 .wedo-info{
-  padding-bottom: 0px;
-}
-.wedo-area3{
-  padding-bottom: 0px;
-}
-.wedo-area3 .wedo-img{
-  padding:0px;
-}
 /*-------------------quote-area start-------------------*/
 .quote-area{
   padding: 125px 0px;
@@ -1396,11 +1290,6 @@ a#scrollUp i:before{
 .breadcumb-wrap ul li.active{
   color: #fb9902;
 }
-/*-------------------breadcumb-area end-------------------*/
-.about-area3 .about-img {
-    height: 636px !important;
-}
-
 /*=============================================
             service-page start
 =============================================
@@ -1473,7 +1362,7 @@ a#scrollUp i:before{
   border-bottom: 1px dashed #fb9902; 
 }
 /*--------working-time-area end--------*/
-.wedo-area.bg-2.wedo-area2.wedo-area3.pt-100 {
+.why-usms.bg-2.wedo-area3.pt-100 {
     padding-top: 100px;
 }
 
@@ -1847,6 +1736,7 @@ a.appoinment-btn:hover{
   padding-top: 130px;
 }
 .contact-form textarea{
+  color: #000000;
   height: 270px;
 }
 .contact-wrap ul li{
