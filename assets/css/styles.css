@@ -1888,10 +1888,11 @@ a.appoinment-btn:hover{
   font-weight: 300;
   line-height: 1.4;
 }
-#googleMap{
-  margin-top: 100px;
-  height: 550px;
-  width: 100%;
+.email{
+  text-transform: lowercase;
+}
+.place{
+  text-transform: capitalize;
 }
 /*-------------------------contact-area end-------------------------*/
 
