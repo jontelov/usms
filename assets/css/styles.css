@@ -474,7 +474,7 @@ ul{
 }
 .section-title p{
   font-style: italic;
-  font-size: 16px;
+  font-size: 2rem;
 }
 .about-wrap {
   padding: 75px 0px;
@@ -789,6 +789,14 @@ ul{
 .pricing-wrap.active button:hover{
   background: #fff;
   color: #222;
+}
+.how-center-3{
+  padding-top: 5px;
+  text-align: center;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 /*---------pricing-area end---------*/
 /*---------booknow-area start---------*/
@@ -1872,6 +1880,13 @@ a.appoinment-btn:hover{
 }
 .contact-wrap ul li p span{
   display: block;
+}
+.how-center-2{
+  text-align: center;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
 }
 #googleMap{
   margin-top: 100px;
