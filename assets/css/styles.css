@@ -452,6 +452,13 @@ ul{
 }
 /*---------slider-area end---------*/
 /*---------about-area start---------*/
+.how-center{
+  text-align: center;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
 .kati{
   text-align: center; 
   font-weight: bolder;
