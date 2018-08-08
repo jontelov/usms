@@ -92,11 +92,9 @@ ul{
 
 .mb-30{margin-bottom: 30px;}
 
-.bg-img-1{background: url(../images/bg/1.jpg)no-repeat center center / cover}
-.bg-img-2{background: url(../images/bg/1.jpg)no-repeat center center / cover}
-.bg-img-3{background: url(../images/bg/1.jpg)no-repeat center center / cover}
-.bg-img-4{background: url(../images/bg/1.jpg)no-repeat center center / cover}
-.bg-img-5{background: url(../images/bg/1.jpg)no-repeat center center / cover}
+.bg-img-4{background: url(../images/bg/4.jpg)no-repeat center center / cover}
+.bg-img-5{background: url(../images/bg/5.jpg)no-repeat center center / cover}
+.bg-img-6{background: url(../images/bg/6.jpg)no-repeat center center / cover}
 
 .black-opacity{
   position: relative;
