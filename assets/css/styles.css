@@ -390,7 +390,7 @@ ul{
 /*---------slider-area end---------*/
 /*-------------------breadcumb-area start-------------------*/
 .breadcumb-area{
-  height: 450px;
+  height: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -536,7 +536,7 @@ ul{
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 } */
 .contact-area{
-  padding-top: 130px;
+  padding-top: 30px;
 }
 .contact-form textarea{
   color: #000000;
