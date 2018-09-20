@@ -87,6 +87,7 @@ ul{
 }
 .bg-1{background: #f4f4f4;}
 .bg-2{background: #fff;}
+.bg-3{background: #131619}
 
 .ptb-80{padding: 80px 0px}
 
@@ -683,9 +684,8 @@ ul{
 }
 .footer-bottom-area{
   padding: 20px 0px;
-  background: #fb9902;
+  background: #fb9902; 
 }
-
 .copyright p a{
   font-weight: 600;
   color: #222;
