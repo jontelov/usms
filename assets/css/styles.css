@@ -113,6 +113,9 @@ ul{
   opacity: .8;
   filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
+.kkk{
+  text-align: center;
+}
 /*---------header-area start---------*/
 .header-area{
   position: fixed;
@@ -470,7 +473,7 @@ ul{
   color: #3b3b3b;
 }
 .why-usms{
-  padding: 130px 0px 100px;
+  padding: 45px 0px 10px;
 }
 .why-usms .why-usms-wrap{
     text-align: center;
@@ -490,7 +493,7 @@ ul{
 /*---------why-usms-area end---------*/
 /*---------pricing-area start---------*/
 .pricing-area{
-  padding: 80px 0px 80px;
+  padding: 45px 0px 45px;
 }
 .pricing-wrap{
   margin-bottom: 30px;
@@ -513,7 +516,7 @@ ul{
 /*---------pricing-area end---------*/
 /*-------------------------contact-area start-------------------------*/
 .discount-area{
-  padding: 100px 0px;
+  padding: 45px 0px;
 }
 .discount-wrap a{
   display: inline-block;
@@ -587,7 +590,7 @@ ul{
 /*-------------------------contact-area end-------------------------*/
 /*---------footer-area start---------*/
 .footer-top{
-  padding: 100px 0px 70px;
+  padding: 45px 0px 0px;
 }
 .footer-widget {
   margin-bottom: 30px;
@@ -683,7 +686,7 @@ ul{
   filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
 .footer-bottom-area{
-  padding: 20px 0px;
+  padding: 5px 0px;
   background: #fb9902; 
 }
 .copyright p a{
