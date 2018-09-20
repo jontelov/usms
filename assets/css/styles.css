@@ -548,9 +548,10 @@ ul{
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  background: #131619;
+  background: #fff;
   margin-bottom: 25px;
   border-radius: 5px;
+  color: #3b3b3b
 }
 .contact-wrap ul li:last-child{
   margin-bottom: 0px;
@@ -565,7 +566,6 @@ ul{
   color: #fb9902;
 }
 .contact-wrap ul li p{
-  background: #131619;
   color: white;
   font-size: 14px;
   margin-top: 8px;
