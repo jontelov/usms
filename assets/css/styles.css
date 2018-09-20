@@ -38,7 +38,7 @@ img {
 .fix {overflow:hidden}
 p {
 	margin:0px;
-	color: #000000;
+	color: #636363!important;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #fb9902;
@@ -85,8 +85,8 @@ ul{
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.bg-1{background:#ffffff;}
-.bg-2{background:#131619;}
+.bg-1{background: #f3f3f3;}
+.bg-2{background: #fff;}
 
 .ptb-80{padding: 80px 0px}
 
@@ -457,7 +457,7 @@ ul{
 /*---------why-usms-area start---------*/
 .why-usms-wrap {
   overflow: hidden;
-  background: #0d0f11;
+  background: #f3f3f3;
 }
 .why-usms-info {
     overflow: hidden;
@@ -466,7 +466,7 @@ ul{
 .why-usms-info h3{
   font-size: 18px;
   font-weight: 600;
-  color: #fff;
+  color: #3b3b3b;
 }
 .why-usms{
   padding: 130px 0px 100px;
@@ -477,7 +477,7 @@ ul{
     margin-bottom: 30px;
 }
 .why-usms .why-usms-icon {
-    background: #191b1e;
+    background: #3b3b3b;
     float: none;
     margin-right: 0;
     height: 110px;
@@ -505,6 +505,9 @@ ul{
   font-size: 17px;
   font-weight: 300;
   line-height: 1.4;
+}
+.kala {
+  color: #3b3b3b;
 }
 /*---------pricing-area end---------*/
 /*-------------------------contact-area start-------------------------*/
