@@ -119,6 +119,7 @@ ul{
   width: 100%;
   z-index: 999;
   left: 0;
+  background-color: #fb9902;
 }
 .header-bottom {
   border-bottom: 1px solid #fb9902;
@@ -142,7 +143,7 @@ ul{
     display: block;
 }
 .mainmenu ul li.active > a,.mainmenu ul li:hover > a{
-  color: #fb9902  ;
+  color: #636363!important;
 }
 .mainmenu ul li > ul {
   position: absolute;
@@ -181,7 +182,7 @@ ul{
   color: #fb9902;
 }
 .header-area.sticky{
-  background: #0d0f11;
+  background: #fb9902;
   box-shadow: 0px 1px 3px rgba(0,0,0,.2);
   transition: all 0.5s ease 0s;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
