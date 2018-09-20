@@ -121,9 +121,6 @@ ul{
   left: 0;
   background-color: #fb9902;
 }
-.header-bottom {
-  border-bottom: 1px solid #fb9902;
-}
 .logo{
   padding: 20px 0px;
 }
@@ -183,11 +180,11 @@ ul{
 }
 .header-area.sticky{
   background: #fb9902;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+  box-shadow: 0 3px 5px 0 rgba(50,50,50,.3);
   transition: all 0.5s ease 0s;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
-.header-area.sticky .header-bottom {
+.header-area.sticky{
   border-bottom: none;
 }
 .section-title{
