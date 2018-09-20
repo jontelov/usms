@@ -89,7 +89,7 @@ ul{
 .bg-2{background: #fff;}
 .bg-3{background: #131619}
 
-.ptb-80{padding: 80px 0px}
+.ptb-80{padding: 10px 0px}
 
 .mb-30{margin-bottom: 30px;}
 
@@ -763,18 +763,11 @@ a#scrollUp i:before{
   font-weight: bold;
   background-color: #131619;
 }
-.checkout-title{
-  padding:20px 30px;
-  background:#fb9902;
-  color:#fff;
-  font-size:20px;
-  font-weight:600;
-  text-transform: uppercase;
-  margin-bottom:0px;
-}
 .checkout-form{
-  background:#131619;
-  padding:30px 30px 30px;
+  padding: 30px 30px 30px;
+  border-color: #fb9902;
+  border-width: thin;
+  border-style: groove;
 }
 .checkout-form p, .checkout-form span{
   color:#fb9902;
@@ -786,7 +779,7 @@ a#scrollUp i:before{
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #cdd5d9;
   border-radius: 5px;
-  color: #ffffff;
+  color: #3b3b3b;
   font-weight: 400;
   height: 50px;
   margin-bottom: 25px;
